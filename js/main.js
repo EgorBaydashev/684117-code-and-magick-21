@@ -1,7 +1,8 @@
+'use strict'
 var fireballSize = 22;
 
 var getFireballSpeed = function (isWindFromLeft) {
-  if(isWindFromLeft) {
+  if (isWindFromLeft) {
     return 2;
   }
   return 5;
@@ -16,9 +17,9 @@ var getWizardHeight = function () {
 };
 
 var getWizardX = function (gamefieldWidth) {
-  return (gamefieldWidth - wizardWidth)/2;
+  return (gamefieldWidth - wizardWidth) / 2;
 };
 
 var getWizardY = function (gamefieldHeight) {
-  return gamefieldHeight/3;
+  return gamefieldHeight / 3;
 };
